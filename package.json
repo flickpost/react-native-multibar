@@ -1,42 +1,59 @@
 {
-  "name": "react-native-multibar",
-  "version": "1.1.4",
+  "_from": "react-native-multibar",
+  "_id": "react-native-multibar@0.0.9",
+  "_inBundle": false,
+  "_integrity": "sha512-32IFvkBFM2vTdCNAdBsqL2UttiEY3iI4HSAogXw6B3IOunMHA+FVIcgCH/R4j086RIvVQE9zNveNOcoiR0Nudw==",
+  "_location": "/react-native-multibar",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-multibar",
+    "name": "react-native-multibar",
+    "escapedName": "react-native-multibar",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-multibar/-/react-native-multibar-0.0.9.tgz",
+  "_shasum": "56614363448fd63a026c58f4f2e11f1d1e06fb58",
+  "_spec": "react-native-multibar",
+  "_where": "C:\\RAJNI\\REACT\\MainMobile",
+  "author": {
+    "name": "Alex Melnyk"
+  },
+  "bugs": {
+    "url": "https://github.com/alex-melnyk/react-native-multibar/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "MultiBar is a TabBar component with an advanced button to make extra actions.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "tsc *.ts"
+  "homepage": "https://github.com/alex-melnyk/react-native-multibar#readme",
+  "keywords": [
+    "React",
+    "Native",
+    "Navigation",
+    "TabBar"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react-native-multibar",
+  "peerDependencies": {
+    "babel-preset-react-native": "^4.0.1",
+    "react": "^16.7.0",
+    "react-native": "^0.57.8",
+    "prop-types": "^15.6.2"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alex-melnyk/react-native-multibar.git"
   },
-  "keywords": [
-    "React",
-    "Native",
-    "Navigation",
-    "TabBar",
-    "MultiBar"
-  ],
-  "author": "Alex Melnyk",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alex-melnyk/react-native-multibar/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/alex-melnyk/react-native-multibar#readme",
-  "devDependencies": {
-    "@babel/core": "^7.11.1",
-    "@types/react": "~16.9.23",
-    "@types/react-native": "~0.61.17",
-    "typescript": "~3.9.7",
-    "babel-preset-react-native": "^4.0.1"
-  },
-  "peerDependencies": {
-    "react": "~16.9.0",
-    "react-native": "^0.60.4"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+  "version": "0.0.9"
 }
